@@ -18,11 +18,21 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="188543fa-a3ac-4016-b6a1-fe5f1035f671" name="Activitée" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="69b02a62-6bd7-4743-8c21-093edb6dae99" />
+        <ownedAttributesInternal>
+          <property Id="54de8793-1882-467f-862c-d0d4f785b713" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b52ca8c7-6edc-4676-97bc-6b33bb11cc23" />
+          </property>
+        </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
       <class Id="f21395c1-c2a0-440f-a63c-44a0c37e6c66" name="Astronautes" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="881425f0-8b34-49f4-8d3d-ace44c78787d" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="18dff078-7bf6-4fcf-9dc2-e88075eafaf6" name="Jour" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b4fae207-eae1-45d9-b39d-1e74a57e14aa" />
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>

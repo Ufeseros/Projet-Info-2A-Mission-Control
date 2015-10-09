@@ -24,12 +24,34 @@
         name="Activitée"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="b52ca8c7-6edc-4676-97bc-6b33bb11cc23"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
         Id="881425f0-8b34-49f4-8d3d-ace44c78787d"
         name="Astronautes"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b4fae207-eae1-45d9-b39d-1e74a57e14aa"
+        name="Jour"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false" />
