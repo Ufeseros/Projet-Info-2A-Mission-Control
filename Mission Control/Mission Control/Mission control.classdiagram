@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="e5e99596-a311-482b-8328-8ba025f829ff" name="Mission control" linkedPackageId="91f7c0c9-5eee-4175-9ff0-c3541b5daf38" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="9946c123-6d95-469d-bdc4-1f8b7578a962">
+      <profileInstance Id="c3f77784-7d4c-4797-8f55-c55a2620876a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c383aba2-0d99-4f93-b416-55b098888582">
+      <profileInstance Id="b15e622f-140d-421b-a27e-52cac8ddb194" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="188543fa-a3ac-4016-b6a1-fe5f1035f671" name="Activitée" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="69b02a62-6bd7-4743-8c21-093edb6dae99" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f21395c1-c2a0-440f-a63c-44a0c37e6c66" name="Astronautes" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="881425f0-8b34-49f4-8d3d-ace44c78787d" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="91f7c0c9-5eee-4175-9ff0-c3541b5daf38" name="Mission Control">
+    <elementDefinition Id="15c9f31e-8845-4c4d-a89f-5bcab112528d" />
+  </package>
+</logicalClassDesignerModel>
