@@ -28,6 +28,102 @@
         <ownedAttributesInternal>
           <property
             Id="b52ca8c7-6edc-4676-97bc-6b33bb11cc23"
+            name="numjour"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="1f32dab0-f186-400f-8cde-8eb869c5b419"
+                LastKnownName="int"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1bcdafd2-a64f-48ed-9c97-8d8a83b08425"
+            name="heuredeb"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="1f32dab0-f186-400f-8cde-8eb869c5b419"
+                LastKnownName="int"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0f386c34-ca69-49c7-9198-42e32ad6f3fb"
+            name="heurefin"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="1f32dab0-f186-400f-8cde-8eb869c5b419"
+                LastKnownName="int"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="046a7c66-4212-4b1e-ba33-1e230bea353b"
+            name="libelle"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="9e709ec6-4231-48b8-a6ab-638c8f22355c"
+                LastKnownName="string"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="25b1f7ab-24de-4d85-a75a-c70ac7d32663"
+            name="patipants"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="54d7a68a-cc05-4db2-b23a-6132ee4f5113"
+                LastKnownName="List&lt;Astronaute&gt;"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7a72693a-ee07-47a9-8df6-24887445e9ab"
+            name="catégorie"
             visibility="Private"
             isLeaf="false"
             isStatic="false"
@@ -54,7 +150,268 @@
         name="Jour"
         isAbstract="false"
         isLeaf="false"
-        isActiveClass="false" />
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="10c20acd-5317-4589-8534-d3e621de92fe"
+            name="num"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="1f32dab0-f186-400f-8cde-8eb869c5b419"
+                LastKnownName="int"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="1f32dab0-f186-400f-8cde-8eb869c5b419"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bf156ed1-1085-4ccf-8032-8094a4806535"
+        name="Mission"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="1d88ff8f-5ebd-4f9a-a79c-dca49c91bfa0"
+            name="Duree"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="1f32dab0-f186-400f-8cde-8eb869c5b419"
+                LastKnownName="int"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b203d5fc-8c9c-48b3-bcc7-a5fa634989a8"
+            name="nom"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="9e709ec6-4231-48b8-a6ab-638c8f22355c"
+                LastKnownName="string"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="adfa7346-772f-4e08-9351-4f8d18828fe9"
+            name="lieu"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="73fedb75-5de2-4d5a-8c2f-dbc0837b4f66"
+                LastKnownName="carte"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="9e709ec6-4231-48b8-a6ab-638c8f22355c"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="a744f2b6-b668-46cc-ba1b-4bfd784f4106"
+        name="Activitée[]" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="73fedb75-5de2-4d5a-8c2f-dbc0837b4f66"
+        name="carte" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3f577d19-54a5-47be-b604-6ea91f0c6ea1"
+        name="carte"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="cad35284-e4a0-498f-bafa-d378b9180f92"
+            name="image"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="1f32dab0-f186-400f-8cde-8eb869c5b419"
+                LastKnownName="int"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7031c8fc-a29c-47fc-b038-d42b020be37c"
+            name="origine"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="fa26fad8-63fb-4bed-9837-65a1e0abe74d"
+                LastKnownName="lieu"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2f7e75b9-897a-4116-9bf5-9798ec471b9a"
+            name="echelle"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="1f32dab0-f186-400f-8cde-8eb869c5b419"
+                LastKnownName="int"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="fa26fad8-63fb-4bed-9837-65a1e0abe74d"
+        name="lieu" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="54d7a68a-cc05-4db2-b23a-6132ee4f5113"
+        name="List&lt;Astronaute&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="88cc84f7-2d8e-471a-9da8-8ff1417e56c2"
+        name="Lieu"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="657fc659-d498-4e1b-956b-1e29087a5569"
+            name="nom"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="9e709ec6-4231-48b8-a6ab-638c8f22355c"
+                LastKnownName="string"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f74e4855-0693-4583-93d8-1e236fb8bd75"
+            name="x"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="1f32dab0-f186-400f-8cde-8eb869c5b419"
+                LastKnownName="int"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5b3bfd9a-4b90-443a-a0bd-3614a9578601"
+            name="y"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="1f32dab0-f186-400f-8cde-8eb869c5b419"
+                LastKnownName="int"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="571bd2b9-b454-4ca1-a026-039c47548a04"
+        name="iny" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
