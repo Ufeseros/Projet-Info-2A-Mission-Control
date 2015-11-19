@@ -230,6 +230,12 @@
               <referencedTypeMoniker Id="2413e829-d0ef-4729-a260-14bf5400437e" LastKnownName="carte" />
             </type_NamedElement>
           </property>
+          <property Id="10e0dfa2-f346-41a6-8901-953e1e5789b8" name="jours" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f39ea49e-9102-4654-a1e0-6fd5a5f9b66c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="90d3a8ad-9541-4fdf-8b58-ca1c0072198a" LastKnownName="List&lt;Jour&gt;" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -339,6 +345,11 @@
     <packageHasNamedElement>
       <referencedType Id="f5841c62-cd9c-4dd1-ae3e-9ab53887497f" name="List&lt;Activitée&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Activitée&gt;">
         <elementDefinition Id="5a92b502-044c-4fc2-8a77-541cd0c023d4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="90d3a8ad-9541-4fdf-8b58-ca1c0072198a" name="List&lt;Jour&gt;" isAbstract="false" isLeaf="false" cachedFullName="List&lt;Jour&gt;">
+        <elementDefinition Id="8d3e6093-caed-481d-a9f2-60f6c67eea61" />
       </referencedType>
     </packageHasNamedElement>
   </packagedElements>

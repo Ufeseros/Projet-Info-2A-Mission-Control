@@ -11,6 +11,5 @@ namespace Mission_Control
         private string carte;
         private string nom;
         private List<Jour> jours;
- 
     }
 }

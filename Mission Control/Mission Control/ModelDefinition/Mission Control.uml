@@ -524,6 +524,25 @@
                 LastKnownLocation="Mission Control.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="f39ea49e-9102-4654-a1e0-6fd5a5f9b66c"
+            name="jours"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="8d3e6093-caed-481d-a9f2-60f6c67eea61"
+                LastKnownName="List&lt;Jour&gt;"
+                LastKnownLocation="Mission Control.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -751,6 +770,11 @@
       <undefinedType
         Id="5a92b502-044c-4fc2-8a77-541cd0c023d4"
         name="List&lt;Activitée&gt;" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="8d3e6093-caed-481d-a9f2-60f6c67eea61"
+        name="List&lt;Jour&gt;" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
