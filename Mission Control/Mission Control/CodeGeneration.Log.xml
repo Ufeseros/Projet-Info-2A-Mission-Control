@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/Extensions/Microsoft/Visualization and Modeling Feature Pack/2.0/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
+  <Message Timestamp="2015-11-19T12:50:41" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-11-19T12:50:41" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2015-11-19T12:50:41" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-11-19T12:50:41" Importance="Diagnostic" Text="ProjectPath = ..\Mission ControlLib\Mission ControlLib.csproj" />
+  <Message Timestamp="2015-11-19T12:50:41" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-11-19T12:50:41" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-11-19T12:50:41" Importance="Diagnostic" Text="TemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-11-19T12:50:41" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-11-19T12:50:41" Importance="Medium" Text="Mission Control's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Mission Control::Activitée' -  (Class), 'Mission Control::Astronautes' -  (Class), 'Mission Control::Jour' -  (Class), 'Mission Control::Mission' -  (Class), 'Mission Control::carte' -  (Class), 'Mission Control::Lieu' -  (Class) " />
+  <Message Timestamp="2015-11-19T12:50:49" Importance="Medium" Text="Project Added: C:\Users\arabin\Documents\GitHub\Projet-Info-2A-Mission-Control\Mission Control\Mission ControlLib\Mission ControlLib.csproj" />
+  <Message Timestamp="2015-11-19T12:50:49" Importance="Medium" Text="'Mission Control::Activitée' -  (Class) : success (file created) - C:\Users\arabin\Documents\GitHub\Projet-Info-2A-Mission-Control\Mission Control\Mission ControlLib\GeneratedCode\Activitée.cs" />
+  <Message Timestamp="2015-11-19T12:50:49" Importance="Medium" Text="'Mission Control::Astronautes' -  (Class) : success (file created) - C:\Users\arabin\Documents\GitHub\Projet-Info-2A-Mission-Control\Mission Control\Mission ControlLib\GeneratedCode\Astronautes.cs" />
+  <Message Timestamp="2015-11-19T12:50:49" Importance="Medium" Text="'Mission Control::Jour' -  (Class) : success (file created) - C:\Users\arabin\Documents\GitHub\Projet-Info-2A-Mission-Control\Mission Control\Mission ControlLib\GeneratedCode\Jour.cs" />
+  <Message Timestamp="2015-11-19T12:50:49" Importance="Medium" Text="'Mission Control::Mission' -  (Class) : success (file created) - C:\Users\arabin\Documents\GitHub\Projet-Info-2A-Mission-Control\Mission Control\Mission ControlLib\GeneratedCode\Mission.cs" />
+  <Message Timestamp="2015-11-19T12:50:49" Importance="Medium" Text="'Mission Control::carte' -  (Class) : success (file created) - C:\Users\arabin\Documents\GitHub\Projet-Info-2A-Mission-Control\Mission Control\Mission ControlLib\GeneratedCode\carte.cs" />
+  <Message Timestamp="2015-11-19T12:50:49" Importance="Medium" Text="'Mission Control::Lieu' -  (Class) : success (file created) - C:\Users\arabin\Documents\GitHub\Projet-Info-2A-Mission-Control\Mission Control\Mission ControlLib\GeneratedCode\Lieu.cs" />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="ProjectPath = ..\Mission ControlLib\Mission ControlLib.csproj" />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="TemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\Visualization and Modeling Feature Pack\2.0\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Medium" Text="Mission Control's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Mission Control::Activitée' -  (Class), 'Mission Control::Astronautes' -  (Class), 'Mission Control::Jour' -  (Class), 'Mission Control::Mission' -  (Class), 'Mission Control::carte' -  (Class), 'Mission Control::Lieu' -  (Class) " />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::Activitée' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::Astronautes' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::Jour' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::Mission' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::carte' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::Lieu' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="The selection included 14 elements which were not bound to a template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control' -  (ModelStoreModel): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'int' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'string' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Activitée[]' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'carte' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'lieu' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'List&lt;Astronaute&gt;' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'iny' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'List&lt;Activitée&gt;' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="Diagnostic" Text="'Mission Control::' -  (Association): no bound template." />
+  <Message Timestamp="2015-11-19T12:50:50" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
