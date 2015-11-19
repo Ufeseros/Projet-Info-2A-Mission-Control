@@ -6,7 +6,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1eda704f-2cf8-40f7-b952-c97eb3623268}</ProjectGuid>
     <ArchitectureToolsVersion>1.0.0.0</ArchitectureToolsVersion>
-    <Name>Mission Control</Name>
+    <Name>Mission Control Model</Name>
     <RootNamespace>Mission Control</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
