@@ -6,7 +6,7 @@
         <elementDefinition Id="69b02a62-6bd7-4743-8c21-093edb6dae99" />
         <targetEnds>
           <association Id="c06620da-1c84-4d58-b854-6691d0e18730" isDerived="false" sourceEndRoleName="Activitée" targetEndRoleName="Astronautes" isLeaf="false" isAbstract="false">
-            <classMoniker Id="f21395c1-c2a0-440f-a63c-44a0c37e6c66" LastKnownName="Astronautes" />
+            <classMoniker Id="f21395c1-c2a0-440f-a63c-44a0c37e6c66" LastKnownName="Astronaute" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="c01067ea-1505-4868-8335-951fdbc8ca90" name="Activitée" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
@@ -106,7 +106,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="f21395c1-c2a0-440f-a63c-44a0c37e6c66" name="Astronautes" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="f21395c1-c2a0-440f-a63c-44a0c37e6c66" name="Astronaute" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="881425f0-8b34-49f4-8d3d-ace44c78787d" />
         <ownedAttributesInternal>
           <property Id="00100ef9-50df-4c06-a72a-844841a62df8" name="nom" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">

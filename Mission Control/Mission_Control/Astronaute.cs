@@ -5,12 +5,8 @@ using System.Text;
 
 namespace Mission_Control
 {
-    class Mission
+    class Astronaute
     {
-        private int Durée;
-        private string carte;
         private string nom;
-        private List<Jour> jours;
- 
     }
 }

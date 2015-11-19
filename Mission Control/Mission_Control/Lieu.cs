@@ -5,12 +5,10 @@ using System.Text;
 
 namespace Mission_Control
 {
-    class Mission
+    class Lieu
     {
-        private int Durée;
-        private string carte;
+        private int x;
+        private int y;
         private string nom;
-        private List<Jour> jours;
- 
     }
 }

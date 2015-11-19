@@ -35,7 +35,7 @@
             isAbstract="false">
             <classMoniker
               Id="881425f0-8b34-49f4-8d3d-ace44c78787d"
-              LastKnownName="Astronautes"
+              LastKnownName="Astronaute"
               LastKnownLocation="Mission Control.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -258,7 +258,7 @@
     <packageHasNamedElement>
       <class
         Id="881425f0-8b34-49f4-8d3d-ace44c78787d"
-        name="Astronautes"
+        name="Astronaute"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
