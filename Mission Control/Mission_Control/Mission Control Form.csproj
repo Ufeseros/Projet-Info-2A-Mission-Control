@@ -59,12 +59,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
 =======
+=======
+>>>>>>> parent of cfb51a0... Revert "en espérant que ca marche"
 =======
 >>>>>>> parent of cfb51a0... Revert "en espérant que ca marche"
 =======
