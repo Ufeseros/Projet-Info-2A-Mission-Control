@@ -31,6 +31,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -43,6 +44,8 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
 =======
+=======
+>>>>>>> parent of cfb51a0... Revert "en espérant que ca marche"
 =======
 >>>>>>> parent of cfb51a0... Revert "en espérant que ca marche"
             this.chargerMission = new System.Windows.Forms.Button();
@@ -89,9 +92,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(853, 591);
             this.Controls.Add(this.button1);
 =======
+=======
+>>>>>>> parent of cfb51a0... Revert "en espérant que ca marche"
 =======
 >>>>>>> parent of cfb51a0... Revert "en espérant que ca marche"
             this.ClientSize = new System.Drawing.Size(1008, 681);
@@ -99,10 +105,13 @@
             this.Controls.Add(this.AfficheJours);
             this.Controls.Add(this.chargerMission);
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/master
 =======
             this.ClientSize = new System.Drawing.Size(284, 261);
 >>>>>>> parent of fdfd1c8... des
+=======
+>>>>>>> parent of cfb51a0... Revert "en espérant que ca marche"
 =======
 >>>>>>> parent of cfb51a0... Revert "en espérant que ca marche"
             this.Name = "Form1";
@@ -113,6 +122,9 @@
 
         #endregion
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of cfb51a0... Revert "en espérant que ca marche"
 
         private System.Windows.Forms.Button chargerMission;
         private System.Windows.Forms.TreeView AfficheJours;
