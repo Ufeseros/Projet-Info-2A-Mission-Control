@@ -10,9 +10,10 @@ namespace Mission_Control
         int num;
         List<Activitée> activitées;
 
-        public Jour()
+        public Jour(int num)
         {
-            // Constructeur non parramétré = "journée type";
+            this.num = num;
+            // journée type
             activitées = new List<Activitée>();
 
             Activitée a = new Activitée("Living", "Spleeping", 0, 7, this.num);
@@ -32,5 +33,11 @@ namespace Mission_Control
             a = new Activitée("Living", "Sleeping", 23, 24, this.num);
             activitées.Add(a);
         }
+
+        public int getNum()
+        {
+            return num;
+        }
+
     }
 }

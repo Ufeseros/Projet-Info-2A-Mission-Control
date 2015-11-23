@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.chargerMission = new System.Windows.Forms.Button();
+            this.AfficheJours = new System.Windows.Forms.TreeView();
             this.SuspendLayout();
             // 
             // chargerMission
@@ -41,15 +42,23 @@
             this.chargerMission.UseVisualStyleBackColor = true;
             this.chargerMission.Click += new System.EventHandler(this.chargerMission_Click);
             // 
+            // AfficheJours
+            // 
+            this.AfficheJours.Location = new System.Drawing.Point(198, 12);
+            this.AfficheJours.Name = "AfficheJours";
+            this.AfficheJours.Size = new System.Drawing.Size(121, 667);
+            this.AfficheJours.TabIndex = 1;
+            this.AfficheJours.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.AfficheJours_AfterSelect);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(595, 325);
+            this.ClientSize = new System.Drawing.Size(1008, 681);
+            this.Controls.Add(this.AfficheJours);
             this.Controls.Add(this.chargerMission);
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Controle de mission";
             this.ResumeLayout(false);
 
         }
@@ -57,6 +66,7 @@
         #endregion
 
         private System.Windows.Forms.Button chargerMission;
+        private System.Windows.Forms.TreeView AfficheJours;
     }
 }
 

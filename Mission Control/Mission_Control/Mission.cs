@@ -18,6 +18,15 @@ namespace Mission_Control
             this.carte = carte;
             this.nom = nom;
             jours = new List<Jour>();
+            for (int i = 1; i <= Durée; i++)
+            {
+                jours.Add(new Jour(i));
+            }
         }
+
+        public List<Jour> getJours(){
+            return jours;
+        }
+
     }
 }

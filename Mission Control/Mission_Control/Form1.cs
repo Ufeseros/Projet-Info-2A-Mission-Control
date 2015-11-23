@@ -11,6 +11,8 @@ namespace Mission_Control
 {
     public partial class Form1 : Form
     {
+        Mission  M = new Mission(500, "images/nanedi valles.jpg", "Mission test");
+
         public Form1()
         {
             InitializeComponent();
@@ -18,7 +20,22 @@ namespace Mission_Control
 
         private void chargerMission_Click(object sender, EventArgs e)
         {
-            Mission M = new Mission(500, "images/nanedi valles.jpg", "Mission test");
+           M = new Mission(500, "images/nanedi valles.jpg", "Mission test");
+           refreshJours();
+        }
+
+
+        public void refreshJours()
+        {
+            foreach (Jour j in M.getJours())
+            {
+                AfficheJours.Nodes.Add(("Jour " + j.getNum()).ToString());
+            }
+        }
+
+        private void AfficheJours_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
         }
 
     }
