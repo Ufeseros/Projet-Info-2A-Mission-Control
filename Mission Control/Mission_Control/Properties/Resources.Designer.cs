@@ -59,5 +59,15 @@ namespace Mission_Control.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nanedi_valles {
+            get {
+                object obj = ResourceManager.GetObject("nanedi valles", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
