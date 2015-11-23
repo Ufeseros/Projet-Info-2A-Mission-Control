@@ -11,5 +11,13 @@ namespace Mission_Control
         private string carte;
         private string nom;
         private List<Jour> jours;
+
+        public Mission(int Durée, string carte, string nom)
+        {
+            this.Durée = Durée;
+            this.carte = carte;
+            this.nom = nom;
+            jours = new List<Jour>();
+        }
     }
 }

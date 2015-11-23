@@ -16,9 +16,10 @@ namespace Mission_Control
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void chargerMission_Click(object sender, EventArgs e)
         {
-
+            Mission M = new Mission(500, "images/nanedi valles.jpg", "Mission test");
         }
+
     }
 }
