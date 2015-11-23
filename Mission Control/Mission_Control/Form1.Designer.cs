@@ -28,19 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
-            this.button1 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(370, 163);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-=======
             this.chargerMission = new System.Windows.Forms.Button();
             this.AfficheJours = new System.Windows.Forms.TreeView();
             this.button1 = new System.Windows.Forms.Button();
@@ -73,21 +60,15 @@
             this.button1.Text = "Afficher la carte";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
->>>>>>> origin/master
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(853, 591);
-            this.Controls.Add(this.button1);
-=======
             this.ClientSize = new System.Drawing.Size(1008, 681);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.AfficheJours);
             this.Controls.Add(this.chargerMission);
->>>>>>> origin/master
             this.Name = "Form1";
             this.Text = "Controle de mission";
             this.ResumeLayout(false);
@@ -96,11 +77,8 @@
 
         #endregion
 
-<<<<<<< HEAD
-=======
         private System.Windows.Forms.Button chargerMission;
         private System.Windows.Forms.TreeView AfficheJours;
->>>>>>> origin/master
         private System.Windows.Forms.Button button1;
     }
 }
