@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -75,10 +76,15 @@
             this.button1.Click += new System.EventHandler(this.button1_Click);
 >>>>>>> origin/master
             // 
+=======
+            this.SuspendLayout();
+            // 
+>>>>>>> parent of fdfd1c8... des
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(853, 591);
             this.Controls.Add(this.button1);
@@ -88,6 +94,9 @@
             this.Controls.Add(this.AfficheJours);
             this.Controls.Add(this.chargerMission);
 >>>>>>> origin/master
+=======
+            this.ClientSize = new System.Drawing.Size(284, 261);
+>>>>>>> parent of fdfd1c8... des
             this.Name = "Form1";
             this.Text = "Controle de mission";
             this.ResumeLayout(false);
@@ -95,6 +104,7 @@
         }
 
         #endregion
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -102,6 +112,8 @@
         private System.Windows.Forms.TreeView AfficheJours;
 >>>>>>> origin/master
         private System.Windows.Forms.Button button1;
+=======
+>>>>>>> parent of fdfd1c8... des
     }
 }
 

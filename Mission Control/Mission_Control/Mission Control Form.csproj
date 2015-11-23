@@ -56,6 +56,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,11 +70,14 @@
       <DependentUpon>FormCarte.cs</DependentUpon>
 >>>>>>> origin/master
     </Compile>
+=======
+>>>>>>> parent of fdfd1c8... des
     <Compile Include="Jour.cs" />
     <Compile Include="Lieu.cs" />
     <Compile Include="Mission.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +89,8 @@
       <DependentUpon>FormCarte.cs</DependentUpon>
 >>>>>>> origin/master
     </EmbeddedResource>
+=======
+>>>>>>> parent of fdfd1c8... des
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
